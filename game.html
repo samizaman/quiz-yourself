@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Yourself</title>
+    <link rel="stylesheet" href="CSS/menu.css" />
+    <link rel="stylesheet" href="CSS/game.css" />
+  </head>
+
+  <body>
+    <div class="game-container">
+      <div class="flex-column justify-center" id="game">
+        <div id="hud">
+          <div class="huditems">
+            <p class="hudmaintext">QUESTION</p>
+            <h1 id="questioncounter" class="hudtext"></h1>
+          </div>
+
+          <div class="huditems">
+            <p class="hudmaintext">SCORE</p>
+            <h1 id="score" class="hudtext">0</h1>
+          </div>
+        </div>
+        <h3 id="question">WHAT IS THE ANSWER ...?</h3>
+
+        <div class="choicecontainer">
+          <p class="choiceprefix">A</p>
+
+          <p class="choicetext" data-number="1">CHOICE</p>
+        </div>
+
+        <div class="choicecontainer">
+          <p class="choiceprefix">B</p>
+
+          <p class="choicetext" data-number="2">CHOICE</p>
+        </div>
+
+        <div class="choicecontainer">
+          <p class="choiceprefix">C</p>
+
+          <p class="choicetext" data-number="3">CHOICE</p>
+        </div>
+
+        <div class="choicecontainer">
+          <p class="choiceprefix">D</p>
+
+          <p class="choicetext" data-number="4">CHOICE</p>
+        </div>
+      </div>
+    </div>
+    <script src="/JS/game.js"></script>
+  </body>
+</html>

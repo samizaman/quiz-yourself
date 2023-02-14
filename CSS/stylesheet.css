@@ -1,0 +1,165 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+#logo {
+  margin-left: 30px;
+  margin-top: 10px;
+  float: left;
+  color: rgb(0, 0, 0);
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items li {
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+.nav-items li a {
+  text-decoration: none;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+.home-buttons-container {
+  position: absolute;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 600px;
+  padding: 10px;
+}
+
+.home-bttn {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+}
+
+.rules-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.login-bttn {
+  width: 70px;
+  height: 30px;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+  margin-top: 28px;
+  margin-left: 100px;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.container {
+  margin-top: 70px;
+  margin-left: 600px;
+}
+
+.password {
+  margin-top: 10px;
+  margin-left: 1px;
+}
+.register {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.email {
+  margin-top: 10px;
+  margin-left: 1px;
+}
+.rpassword {
+  margin-top: 10px;
+  margin-left: 1px;
+}
+.confirm-password {
+  margin-top: 10px;
+  margin-left: 1px;
+}
+.birthday {
+  margin-top: 10px;
+  margin-left: 1px;
+}
+.gender {
+  margin-top: 10px;
+  margin-left: 1px;
+}
+.male-radio {
+  margin-top: -16px;
+  margin-left: 80px;
+}
+.female-radio {
+  margin-top: -16px;
+  margin-left: 150px;
+}
+.rsubmit {
+  margin-top: 20px;
+  margin-left: 100px;
+  width: 70px;
+  height: 30px;
+  font-size: 15px;
+  background-color: white;
+}
+.current {
+  background-color: #b23758;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.main-title {
+  font-size: 36px;
+  color: rgb(122, 65, 65);
+  margin-top: 150px;
+  margin-left: 450px;
+  display: flex;
+}
+
+.second-title {
+  font-size: 36px;
+  color: rgb(122, 65, 65);
+  margin-left: 320px;
+}
+
+.third-title {
+  font-size: 36px;
+  color: rgb(122, 65, 65);
+  margin-left: 510px;
+}
+
+.register-link {
+  margin-top: 25px;
+}
+
+.login-link {
+    margin-top: 25px;
+  }
+
+.rules{
+    margin-left: 175px;
+}

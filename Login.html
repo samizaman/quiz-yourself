@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="CSS/stylesheet.css" />
+
+<body>
+  <h1 class="logo">QUIZ YOURSELF</h1>
+
+  <div class="nav">
+    <ul class="nav-items">
+      <li><a href="Index.html">HOME</a></li>
+      <li><a href="Rules.html">RULES</a></li>
+      <li><a href="Leaderboard.html">LEADERBOARD</a></li>
+      <li><a href="Login.html" id="login" class="current">LOGIN</a></li>
+      <li><a href="Register.html" id="register">REGISTER</a></li>
+    </ul>
+  </div>
+
+  <h1 class="login">LOGIN</h1>
+
+  <form method="#">
+    <div class="container">
+      <label for="username"><b>USERNAME:</b></label>
+      <input type="text" placeholder="Enter Username" id="loguser" name="username" required />
+
+      <div class="password">
+        <label for="psw"><b>PASSWORD:</b></label>
+        <input type="password" placeholder="Enter Password" id="logpass" name="psw" required />
+      </div>
+
+      <button class="login-bttn" type="submit" onclick="checklogin()">
+        LOGIN
+      </button>
+
+      <p class="register-link">
+        Don't have an account? <a href="Register.html">Register here</a>
+      </p>
+    </div>
+  </form>
+  <script src="/JS/script.js"></script>
+</body>

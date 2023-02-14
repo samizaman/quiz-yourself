@@ -1,0 +1,95 @@
+<link rel="stylesheet" href="CSS/stylesheet.css">
+
+
+<body>
+
+    <h1 class="logo">QUIZ YOURSELF</h1>
+
+    <div class="nav">
+        <ul class="nav-items">
+            <li><a href="Index.html">HOME</a></li>
+            <li><a href="Rules.html">RULES</a></li>
+            <li><a href="Leaderboard.html">LEADERBOARD</a></li>
+            <li><a href="Login.html">LOGIN</a></li>
+            <li><a href="Register.html" class="current">REGISTER</a></li>
+        </ul>
+    </div>
+
+
+    <h1 class="register">REGISTER</h1>
+
+
+
+    <form method="#" id="register">
+
+        <div class="container">
+
+            <label for="username"><b class="register-page-items">USERNAME:</b></label>
+            <input type="text" id="username" placeholder="Enter Username" name="username" required><br>
+
+            <div class="email">
+
+                <p> <label for="email"><b class="register-page-items"> EMAIL:</b></label>
+                    <input type="email" id="email" placeholder="Enter Email" name="email" required>
+                    <br><span id="e-message"></span>
+                </p>
+            </div>
+
+
+            <div class=rpassword>
+
+                <p><label for="psw"><b class="register-page-items">PASSWORD:</b></label>
+                    <input type="password" id="password" placeholder="Enter Password" name="psw" required
+                        onkeyup='check();'><br>
+
+                </p>
+            </div>
+
+
+            <div class="confirm-password">
+
+                <p><label for="confirm-password"><b class="register-page-items">CONFIRM PASSWORD:</b></label>
+                    <input type="password" id="confirm_password" placeholder="Confirm Password" name="confirm-password"
+                        required onkeyup='check();'><br>
+                    <span id='message'></span>
+                </p>
+
+            </div>
+
+
+            <div class="birthday">
+                <p><label for="Birthday"><b class="register-page-items">BIRTHDAY:</b></label>
+                    <input type="date" name="Birthday" id="birthday" min="2008-01-01" max="2050-12-31"><br>
+                </p>
+
+            </div>
+
+            <div class="gender">
+
+                <b>GENDER:</b>
+
+            </div>
+
+            <div class="male-radio">
+                <input type="radio" name="gender" value="Male" checked id="male">
+                <label for="Male">Male</label>
+            </div>
+
+            <div class="female-radio">
+                <input type="radio" name="gender" value="Female" id="female">
+                <label for="Female">Female</label>
+            </div>
+
+
+            <p><button class="rsubmit" type="submit" id="submit" onclick="add_user()">SIGN UP</button></p>
+
+
+            <p class="login-link">Already have an account? <a href="Login.html">Login here</a></p>
+        </div>
+
+        </div>
+    </form>
+
+    <script src="/JS/script.js"></script>
+
+</body>

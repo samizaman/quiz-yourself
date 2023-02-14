@@ -1,0 +1,67 @@
+body{
+   color: white;
+}
+
+h3{
+    font-size: 40px;
+}
+
+.choicecontainer{
+    display: flex;
+    background: purple;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.choicecontainer:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    box-shadow: 0px 6px 6px 0px rgb(109, 18, 71);
+}
+
+.choiceprefix{
+    padding: 15px 20px;
+    background-color: #efeded;
+    color: black;
+}
+
+.choicetext{
+    padding: 15px 20px;
+    width: 100%;
+}
+
+#hud{
+    display: flex;
+    justify-content: space-between;
+    padding: 65px;
+
+}
+
+.hudtext{
+    text-align: center;
+    font-size: 35px;
+
+}
+
+.hudmaintext{
+    font-size: 25px;
+    margin-left: 69px;
+    text-align: center;
+
+}
+
+#question{
+    text-align: center;
+    padding: 30px;
+
+}
+
+.correct{
+    background-color: greenyellow;
+    color: black;
+}
+
+.incorrect{
+    background-color: rgb(238, 46, 46);
+}
